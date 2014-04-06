@@ -307,7 +307,10 @@ void CHud::Create()
 			h.icoDamage = h.parent->createWidget<ImageBox>("ImageBox",
 				0,y, 40,40, Align::Left, "IDmg"+s);  //h.icoDamage->setVisible(false);
 			h.icoDamage->setImageTexture("gui_icons.png");
-			h.icoDamage->setImageCoord(IntCoord(512,256,128,128));
+			if (pSet->game.damage_type == 1)
+			{ h.icoDamage->setImageCoord(IntCoord(512,256,128,128)); }
+			else
+			{ h.icoDamage->setImageCoord(IntCoord(640,384,128,128)); }
 		}
 		
 		//  rewind <<
