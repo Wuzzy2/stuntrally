@@ -580,6 +580,16 @@ material road_wall_Desert
 	bump_scale 1.0
 }
 
+// wood
+material road_wall_Wood
+{
+	parent road_wall
+	ambient 0.8 0.8 0.8
+	diffuse 0.6 0.6 0.6
+	specular 0.3 0.3 0.3 16
+	diffuseMap woodwall.jpg
+}
+
 
 //  pipe Wall
 //----------------------------------------------------

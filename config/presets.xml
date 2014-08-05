@@ -181,6 +181,8 @@
 
 <r a="D16" sc="D"  m="roadAsphalt"   su="Asphalt"        du="0.0" ds="0.9" md="0.0" tr="0.00 0.00 0.00 0.0" z="D" />
 
+<r a="F1"  sc="F"  m="roadWood"      su="Wood"           du="0.0" ds="0.0" md="0.0" tr="0.00 0.00 0.00 0.0" z="F" />
+
 <r a="A3"  sc="A"  m="roadAdesert"   su="roadAdesert"    du="0.5" ds="0.6" md="0.0" tr="0.54 0.30 0.22 0.7" z="ACR" />
 <r a="A1"  sc="A"  m="roadAdesertDark" su="roadAdesert"  du="0.5" ds="0.6" md="0.0" tr="0.44 0.30 0.22 0.7" z="ACR" />
 <r a="C1"  sc="C"  m="roadCdesert"   su="roadDesert"     du="0.5" ds="0.6" md="0.0" tr="0.44 0.30 0.22 0.7" z="C" />
